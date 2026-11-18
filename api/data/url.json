@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "original_url": "http://localhost:3002/eI4Wqwk",
+    "short_code": "HlpCZ6",
+    "clicks": 1,
+    "created_at": "2026-11-18T18:25:05.802Z"
+  },
+  {
+    "id": 2,
+    "original_url": "https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download",
+    "short_code": "Omw1lr",
+    "clicks": 1,
+    "created_at": "2026-11-18T18:25:28.767Z"
+  }
+]

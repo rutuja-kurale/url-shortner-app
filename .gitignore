@@ -1,0 +1,24 @@
+
+# Node modules
+api/node_modules/
+angular/node_modules/
+
+# Angular build output
+angular/dist/
+angular/.angular/
+
+# Node.js logs
+*.log
+npm-debug.log*
+
+# Environment files
+api/.env
+angular/.env
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+node_modules/zone.js/

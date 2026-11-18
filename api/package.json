@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Url Shortner App",
+  "main": "server.js",
+  "scripts": {
+    "test": " ",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Rutuja",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

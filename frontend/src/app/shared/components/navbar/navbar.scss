@@ -1,0 +1,55 @@
+
+:host {
+  display: block;
+}
+
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(11, 13, 15, 0.86);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f8fafc;
+  letter-spacing: 0.4px;
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--brand);
+  box-shadow: 0 0 16px #2d6e61;
+}
+
+.nav-link {
+  color: #f8fafc;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f8fafc;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #26675a,
+    #2d6e61
+  );
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
